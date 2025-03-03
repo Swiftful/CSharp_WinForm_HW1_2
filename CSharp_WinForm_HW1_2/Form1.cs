@@ -1,14 +1,10 @@
 namespace CSharp_WinForm_HW1_2
 {
     public partial class Form1 : Form
-    {
-        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
-        
+    {        
         public Form1()
         {
             InitializeComponent();
-            player.SoundLocation  = "CodMw4.wav";
-            player.Play();
         }
         Random ran = new Random();
         static byte size = 180;
